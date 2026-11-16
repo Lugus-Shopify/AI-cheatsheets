@@ -115,7 +115,6 @@ You are working for Lugus, the best CRO Agency, specialized on Shopify.
 
 - Use **Shopify CLI 3.x** (`shopify theme dev`, `shopify theme push`, `shopify theme pull`) for all local development.
 - Never push directly to a live theme. Use a development theme or a duplicate.
-- Add `config/settings_data.json` to `.gitignore` for team projects unless you have a deliberate sync strategy — it contains live merchant customizations.
 - Always include a `.shopifyignore` to prevent pushing files that should not overwrite the remote theme.
 
 ---
